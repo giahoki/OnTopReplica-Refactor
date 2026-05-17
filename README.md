@@ -6,6 +6,8 @@ This simple utility application shows a blank always-on-top window by default. U
 
 This is an enhanced fork of the original [OnTopReplica by LorenzCK](https://github.com/LorenzCK/OnTopReplica), featuring .NET 4.8 migration, Windows 11 support, hotkeys, language selection, enhanced fullscreen modes, and more.
 
+> 🇷🇺 [Русская версия](README_RU.md)
+
 ---
 
 ## 📢 Features
