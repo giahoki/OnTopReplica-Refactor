@@ -31,6 +31,8 @@
             this.txtHotKeyShowHide = new OnTopReplica.HotKeyTextBox();
             this.lblHotKeyClone = new System.Windows.Forms.Label();
             this.txtHotKeyClone = new OnTopReplica.HotKeyTextBox();
+            this.lblHotKeyClickThrough = new System.Windows.Forms.Label();
+            this.txtHotKeyClickThrough = new OnTopReplica.HotKeyTextBox();
             this.groupLanguage = new System.Windows.Forms.GroupBox();
             this.comboLanguage = new OnTopReplica.ImageComboBox();
             this.lblLanguage = new System.Windows.Forms.Label();
@@ -42,7 +44,7 @@
             // btnClose
             // 
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClose.Location = new System.Drawing.Point(220, 243);
+            this.btnClose.Location = new System.Drawing.Point(220, 293);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(87, 27);
             this.btnClose.TabIndex = 0;
@@ -60,7 +62,7 @@
             this.panelMain.Controls.Add(this.groupLanguage);
             this.panelMain.Location = new System.Drawing.Point(7, 7);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(301, 230);
+            this.panelMain.Size = new System.Drawing.Size(301, 280);
             this.panelMain.TabIndex = 1;
             // 
             // groupHotkeys
@@ -72,9 +74,11 @@
             this.groupHotkeys.Controls.Add(this.txtHotKeyShowHide);
             this.groupHotkeys.Controls.Add(this.lblHotKeyClone);
             this.groupHotkeys.Controls.Add(this.txtHotKeyClone);
+            this.groupHotkeys.Controls.Add(this.lblHotKeyClickThrough);
+            this.groupHotkeys.Controls.Add(this.txtHotKeyClickThrough);
             this.groupHotkeys.Location = new System.Drawing.Point(3, 89);
             this.groupHotkeys.Name = "groupHotkeys";
-            this.groupHotkeys.Size = new System.Drawing.Size(294, 130);
+            this.groupHotkeys.Size = new System.Drawing.Size(294, 190);
             this.groupHotkeys.TabIndex = 1;
             this.groupHotkeys.TabStop = false;
             this.groupHotkeys.Text = "Hot keys:";
@@ -129,6 +133,36 @@
             this.txtHotKeyClone.Size = new System.Drawing.Size(181, 23);
             this.txtHotKeyClone.TabIndex = 0;
             // 
+            // lblHotKeyClickThrough
+            // 
+            this.lblHotKeyClickThrough.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblHotKeyClickThrough.BackColor = System.Drawing.Color.Transparent;
+            this.lblHotKeyClickThrough.Location = new System.Drawing.Point(196, 85);
+            this.lblHotKeyClickThrough.Name = "lblHotKeyClickThrough";
+            this.lblHotKeyClickThrough.Size = new System.Drawing.Size(91, 33);
+            this.lblHotKeyClickThrough.TabIndex = 6;
+            this.lblHotKeyClickThrough.Text = "Toggle click-through";
+            // 
+            // txtHotKeyClickThrough
+            // 
+            this.txtHotKeyClickThrough.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtHotKeyClickThrough.Location = new System.Drawing.Point(7, 82);
+            this.txtHotKeyClickThrough.Name = "txtHotKeyClickThrough";
+            this.txtHotKeyClickThrough.ReadOnly = true;
+            this.txtHotKeyClickThrough.Size = new System.Drawing.Size(181, 23);
+            this.txtHotKeyClickThrough.TabIndex = 5;
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.Location = new System.Drawing.Point(7, 108);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(182, 50);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "These system-wide shortcuts can also be used when OnTopReplica Refactor is not in focus.";
+            // 
             // groupLanguage
             // 
             this.groupLanguage.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -173,10 +207,10 @@
             this.AutoScroll = true;
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.btnClose);
-            this.MinimumSize = new System.Drawing.Size(315, 277);
+            this.MinimumSize = new System.Drawing.Size(315, 330);
             this.Name = "OptionsPanel";
             this.Padding = new System.Windows.Forms.Padding(7, 7, 7, 7);
-            this.Size = new System.Drawing.Size(315, 277);
+            this.Size = new System.Drawing.Size(315, 330);
             this.panelMain.ResumeLayout(false);
             this.groupHotkeys.ResumeLayout(false);
             this.groupHotkeys.PerformLayout();
@@ -197,6 +231,8 @@
         private System.Windows.Forms.Label lblHotKeyShowHide;
         private HotKeyTextBox txtHotKeyShowHide;
         private System.Windows.Forms.Label lblHotKeyClone;
+        private System.Windows.Forms.Label lblHotKeyClickThrough;
+        private HotKeyTextBox txtHotKeyClickThrough;
         private System.Windows.Forms.Label label1;
     }
 }

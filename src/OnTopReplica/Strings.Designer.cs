@@ -587,60 +587,6 @@ namespace OnTopReplica {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Disable.
-        /// </summary>
-        internal static string GroupSwitchModeDisableButton {
-            get {
-                return ResourceManager.GetString("GroupSwitchModeDisableButton", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на Enable Group mode.
-        /// </summary>
-        internal static string GroupSwitchModeEnableButton {
-            get {
-                return ResourceManager.GetString("GroupSwitchModeEnableButton", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на Select multiple windows to enable..
-        /// </summary>
-        internal static string GroupSwitchModeStatusDisabled {
-            get {
-                return ResourceManager.GetString("GroupSwitchModeStatusDisabled", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на Group switch mode is enabled..
-        /// </summary>
-        internal static string GroupSwitchModeStatusEnabled {
-            get {
-                return ResourceManager.GetString("GroupSwitchModeStatusEnabled", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на Group switch mode:.
-        /// </summary>
-        internal static string GroupSwitchModeTitle {
-            get {
-                return ResourceManager.GetString("GroupSwitchModeTitle", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на Windows.
-        /// </summary>
-        internal static string GroupSwitchModeWindows {
-            get {
-                return ResourceManager.GetString("GroupSwitchModeWindows", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Ищет локализованную строку, похожую на Homepage: www.codeplex.com/ontopreplica..
         /// </summary>
         internal static string Homepage {
@@ -957,24 +903,6 @@ namespace OnTopReplica {
         internal static string MenuFitQuarter {
             get {
                 return ResourceManager.GetString("MenuFitQuarter", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на Group Switch mode.
-        /// </summary>
-        internal static string MenuGroupSwitch {
-            get {
-                return ResourceManager.GetString("MenuGroupSwitch", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на OnTopReplica will automatically clone a window from an user defined group, switching to the one least recently activated to the foreground..
-        /// </summary>
-        internal static string MenuGroupSwitchTT {
-            get {
-                return ResourceManager.GetString("MenuGroupSwitchTT", resourceCulture);
             }
         }
         
@@ -1479,6 +1407,15 @@ namespace OnTopReplica {
         internal static string SettingsHotKeyClone {
             get {
                 return ResourceManager.GetString("SettingsHotKeyClone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Toggle click-through.
+        /// </summary>
+        internal static string SettingsHotKeyClickThrough {
+            get {
+                return ResourceManager.GetString("SettingsHotKeyClickThrough", resourceCulture);
             }
         }
         

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -302,25 +302,6 @@
   <data name="FullscreenTitle" xml:space="preserve">
     <value>OnTopReplica全屏</value>
   </data>
-  <data name="GroupSwitchModeDisableButton" xml:space="preserve">
-    <value>关闭</value>
-  </data>
-  <data name="GroupSwitchModeEnableButton" xml:space="preserve">
-    <value>打开组模式</value>
-  </data>
-  <data name="GroupSwitchModeStatusDisabled" xml:space="preserve">
-    <value>同时选择多个窗口来打开。</value>
-  </data>
-  <data name="GroupSwitchModeStatusEnabled" xml:space="preserve">
-    <value>组切换模式已打开。</value>
-  </data>
-  <data name="GroupSwitchModeTitle" xml:space="preserve">
-    <value>组切换模式：</value>
-  </data>
-  <data name="GroupSwitchModeWindows" xml:space="preserve">
-    <value>窗口</value>
-    <comment>Column Header of list, simply refers to available windows to be cloned</comment>
-  </data>
   <data name="Homepage" xml:space="preserve">
     <value>主页：www.codeplex.com/ontopreplica。</value>
   </data>
@@ -416,12 +397,6 @@
   </data>
   <data name="MenuFitQuarter" xml:space="preserve">
     <value>1:4 四分之一</value>
-  </data>
-  <data name="MenuGroupSwitch" xml:space="preserve">
-    <value>组切换模式</value>
-  </data>
-  <data name="MenuGroupSwitchTT" xml:space="preserve">
-    <value>OnTopReplica会根据用户定义的组自动复制窗口，切换到最后一个激活的前端窗口。</value>
   </data>
   <data name="MenuOp100" xml:space="preserve">
     <value>100% （不透明）</value>
@@ -572,6 +547,9 @@
   </data>
   <data name="SettingsHotKeyClone" xml:space="preserve">
     <value>监视当前窗口</value>
+  </data>
+  <data name="SettingsHotKeyClickThrough" xml:space="preserve">
+    <value>切换点击穿透</value>
   </data>
   <data name="SettingsHotKeyDescription" xml:space="preserve">
     <value>系统端快捷键仍可以在OnTopReplica未激活的时候使用。</value>

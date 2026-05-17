@@ -1,5 +1,5 @@
 #define SourcePath "src\OnTopReplica\bin\Release"
-#define AppVersion "3.8.0"
+#define AppVersion "4.8.2"
 #define AppPublisher "giahoki"
 
 [Setup]

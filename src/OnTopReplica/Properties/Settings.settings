@@ -53,6 +53,9 @@
     <Setting Name="HotKeyShowHide" Type="System.String" Scope="User">
       <Value Profile="(Default)">[CTRL]+[SHIFT]+O</Value>
     </Setting>
+    <Setting Name="HotKeyClickThrough" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[SHIFT]+[ALT]+O</Value>
+    </Setting>
     <Setting Name="FullscreenMode" Type="System.String" Scope="User">
       <Value Profile="(Default)">Standard</Value>
     </Setting>

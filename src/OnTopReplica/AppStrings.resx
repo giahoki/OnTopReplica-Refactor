@@ -118,18 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ApplicationWebsite" xml:space="preserve">
-    <value>http://ontopreplica.codeplex.com</value>
+    <value>https://github.com/giahoki/OnTopReplica-Refactor</value>
   </data>
   <data name="AuthorWebsite" xml:space="preserve">
-    <value>http://lorenz.klopfenstein.net</value>
+    <value>https://github.com/giahoki/OnTopReplica-Refactor</value>
   </data>
   <data name="LatestCommitsLink" xml:space="preserve">
-    <value>http://ontopreplica.codeplex.com/SourceControl/list/changesets</value>
+    <value>https://github.com/giahoki/OnTopReplica-Refactor/commits/master</value>
   </data>
   <data name="MsRlLicenseLink" xml:space="preserve">
-    <value>http://opensource.org/licenses/ms-rl.html</value>
+    <value>https://github.com/giahoki/OnTopReplica-Refactor/blob/master/LICENSE</value>
   </data>
   <data name="UpdateFeed" xml:space="preserve">
-    <value>http://ontopreplica.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2frelease%2fontopreplica</value>
+    <value>https://github.com/giahoki/OnTopReplica-Refactor/releases</value>
   </data>
 </root>

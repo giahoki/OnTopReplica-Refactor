@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -540,33 +540,8 @@ Tilgængelig version: {1}</value>
   <data name="ErrorUpdateContentGeneric" xml:space="preserve">
     <value>OnTopReplica was unable to check whether an updated version is available. Make sure you are connected to the Internet. If you are, the website may be temporarily down.</value>
   </data>
-  <data name="GroupSwitchModeDisableButton" xml:space="preserve">
-    <value>Disable</value>
-  </data>
-  <data name="GroupSwitchModeEnableButton" xml:space="preserve">
-    <value>Enable Group mode</value>
-  </data>
-  <data name="GroupSwitchModeStatusDisabled" xml:space="preserve">
-    <value>Select multiple windows to enable.</value>
-  </data>
-  <data name="GroupSwitchModeStatusEnabled" xml:space="preserve">
-    <value>Group switch mode is enabled.</value>
-  </data>
-  <data name="GroupSwitchModeTitle" xml:space="preserve">
-    <value>Group switch mode:</value>
-  </data>
-  <data name="GroupSwitchModeWindows" xml:space="preserve">
-    <value>Windows</value>
-    <comment>Column Header of list, simply refers to available windows to be cloned</comment>
-  </data>
   <data name="MenuAdvanced" xml:space="preserve">
     <value>Advanced</value>
-  </data>
-  <data name="MenuGroupSwitch" xml:space="preserve">
-    <value>Group Switch mode</value>
-  </data>
-  <data name="MenuGroupSwitchTT" xml:space="preserve">
-    <value>OnTopReplica will automatically clone a window from an user defined group, switching to the one least recently activated to the foreground.</value>
   </data>
   <data name="MenuPosCenter" xml:space="preserve">
     <value>Center</value>
@@ -588,6 +563,9 @@ Tilgængelig version: {1}</value>
   </data>
   <data name="SettingsHotKeyClone" xml:space="preserve">
     <value>Clone current window</value>
+  </data>
+  <data name="SettingsHotKeyClickThrough" xml:space="preserve">
+    <value>Skift klik gennem</value>
   </data>
   <data name="SettingsHotKeyDescription" xml:space="preserve">
     <value>These system-wide shortcuts can also be used when OnTopReplica is not in focus.</value>

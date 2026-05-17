@@ -23,6 +23,7 @@ namespace OnTopReplica.SidePanels {
             groupHotkeys.Text = Strings.SettingsHotKeyTitle;
             lblHotKeyShowHide.Text = Strings.SettingsHotKeyShowHide;
             lblHotKeyClone.Text = Strings.SettingsHotKeyClone;
+            lblHotKeyClickThrough.Text = Strings.SettingsHotKeyClickThrough;
             label1.Text = Strings.SettingsHotKeyDescription;
 
             btnClose.Text = Strings.MenuClose;
@@ -37,6 +38,7 @@ namespace OnTopReplica.SidePanels {
             form.MessagePumpManager.Get<OnTopReplica.MessagePumpProcessors.HotKeyManager>().Enabled = false;
             txtHotKeyShowHide.Text = Settings.Default.HotKeyShowHide;
             txtHotKeyClone.Text = Settings.Default.HotKeyCloneCurrent;
+            txtHotKeyClickThrough.Text = Settings.Default.HotKeyClickThrough;
         }
 
         private void Close_click(object sender, EventArgs e) {
@@ -55,6 +57,7 @@ namespace OnTopReplica.SidePanels {
             //Update hotkey settings and update processor
             Settings.Default.HotKeyShowHide = txtHotKeyShowHide.Text;
             Settings.Default.HotKeyCloneCurrent = txtHotKeyClone.Text;
+            Settings.Default.HotKeyClickThrough = txtHotKeyClickThrough.Text;
             var manager = form.MessagePumpManager.Get<OnTopReplica.MessagePumpProcessors.HotKeyManager>();
             manager.RefreshHotkeys();
             manager.Enabled = true;

@@ -54,9 +54,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panelContents);
             this.Controls.Add(this.labelVersion);
-            this.MinimumSize = new System.Drawing.Size(344, 335);
+            this.MinimumSize = new System.Drawing.Size(344, 440);
             this.Name = "AboutPanel";
-            this.Size = new System.Drawing.Size(344, 335);
+            this.Size = new System.Drawing.Size(344, 440);
             this.ResumeLayout(false);
 
         }

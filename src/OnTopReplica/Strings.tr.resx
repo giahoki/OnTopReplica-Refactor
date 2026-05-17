@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -303,25 +303,6 @@ Bu programı Windows Vista Home Premium veya daha iyisinde çalıştırmalısın
   <data name="FullscreenTitle" xml:space="preserve">
     <value>OnTopReplica tam ekran</value>
   </data>
-  <data name="GroupSwitchModeDisableButton" xml:space="preserve">
-    <value>Etkisizleştir</value>
-  </data>
-  <data name="GroupSwitchModeEnableButton" xml:space="preserve">
-    <value>Grup modu etkinleştir</value>
-  </data>
-  <data name="GroupSwitchModeStatusDisabled" xml:space="preserve">
-    <value>Etkinleştirilecek çoklu pencereleri seçiniz.</value>
-  </data>
-  <data name="GroupSwitchModeStatusEnabled" xml:space="preserve">
-    <value>Grup değiştirme modu etkin.</value>
-  </data>
-  <data name="GroupSwitchModeTitle" xml:space="preserve">
-    <value>Grup değiştirme modu:</value>
-  </data>
-  <data name="GroupSwitchModeWindows" xml:space="preserve">
-    <value>Pencereler</value>
-    <comment>Column Header of list, simply refers to available windows to be cloned</comment>
-  </data>
   <data name="Homepage" xml:space="preserve">
     <value>Anasayfa: www.codeplex.com/ontopreplica.</value>
   </data>
@@ -424,12 +405,6 @@ direkt-tıklayı daha sonra etkinleştirebilirsiniz.</value>
   </data>
   <data name="MenuFitQuarter" xml:space="preserve">
     <value>1:4 Çeyrek</value>
-  </data>
-  <data name="MenuGroupSwitch" xml:space="preserve">
-    <value>Grup Değiştirme modu</value>
-  </data>
-  <data name="MenuGroupSwitchTT" xml:space="preserve">
-    <value>OnTopReplica kullanıcı tanımlı gruptan bir pencereyi kopyalayıp, arkaplanda en son aktifleştirilen biri ile değiştirecektir.</value>
   </data>
   <data name="MenuOp100" xml:space="preserve">
     <value>100% (opak)</value>
@@ -580,6 +555,9 @@ direkt-tıklayı daha sonra etkinleştirebilirsiniz.</value>
   </data>
   <data name="SettingsHotKeyClone" xml:space="preserve">
     <value>Şu anki pencereyi klonla</value>
+  </data>
+  <data name="SettingsHotKeyClickThrough" xml:space="preserve">
+    <value>Tıklama üzerinden geçiş</value>
   </data>
   <data name="SettingsHotKeyDescription" xml:space="preserve">
     <value>Bu sistem genelinde kısayollar ayrıca OnTopReplica üstte olmadığı zaman kullanılabilir.</value>

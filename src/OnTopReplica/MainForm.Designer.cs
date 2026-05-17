@@ -36,7 +36,6 @@
             this.advancedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clickForwardingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clickThroughToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.groupSwitchModeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.restoreLastClonedWindowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuContextOpacity = new System.Windows.Forms.ToolStripMenuItem();
             this.menuOpacity = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -152,7 +151,6 @@
             this.advancedToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.clickForwardingToolStripMenuItem,
             this.clickThroughToolStripMenuItem,
-            this.groupSwitchModeToolStripMenuItem,
             this.restoreLastClonedWindowToolStripMenuItem});
             this.advancedToolStripMenuItem.Image = global::OnTopReplica.Properties.Resources.xiao_wrench;
             this.advancedToolStripMenuItem.Name = "advancedToolStripMenuItem";
@@ -177,15 +175,6 @@
             this.clickThroughToolStripMenuItem.Text = global::OnTopReplica.Strings.MenuClickThrough;
             this.clickThroughToolStripMenuItem.ToolTipText = global::OnTopReplica.Strings.MenuClickThroughTT;
             this.clickThroughToolStripMenuItem.Click += new System.EventHandler(this.Menu_ClickThrough_click);
-            // 
-            // groupSwitchModeToolStripMenuItem
-            // 
-            this.groupSwitchModeToolStripMenuItem.Image = global::OnTopReplica.Properties.Resources.groupmode;
-            this.groupSwitchModeToolStripMenuItem.Name = "groupSwitchModeToolStripMenuItem";
-            this.groupSwitchModeToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
-            this.groupSwitchModeToolStripMenuItem.Text = global::OnTopReplica.Strings.MenuGroupSwitch;
-            this.groupSwitchModeToolStripMenuItem.ToolTipText = global::OnTopReplica.Strings.MenuGroupSwitchTT;
-            this.groupSwitchModeToolStripMenuItem.Click += new System.EventHandler(this.Menu_GroupSwitchMode_click);
             // 
             // restoreLastClonedWindowToolStripMenuItem
             // 
@@ -610,7 +599,6 @@
         private System.Windows.Forms.ToolStripMenuItem advancedToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem clickForwardingToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem clickThroughToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem groupSwitchModeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem enableClickthroughToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem centerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem disabledToolStripMenuItem;

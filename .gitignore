@@ -7,3 +7,4 @@ src/Installer/output/*
 *.user
 *.suo
 src/packages/*
+*.iss

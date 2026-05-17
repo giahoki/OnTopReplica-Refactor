@@ -138,7 +138,6 @@
     </Compile>
     <Compile Include="MessagePumpManager.cs" />
     <Compile Include="MessagePumpProcessors\FlashCloner.cs" />
-    <Compile Include="MessagePumpProcessors\GroupSwitchManager.cs" />
     <Compile Include="IMessagePumpProcessor.cs" />
     <Compile Include="MessagePumpProcessors\BaseMessagePumpProcessor.cs" />
     <Compile Include="MessagePumpProcessors\ShellInterceptProcessor.cs" />
@@ -188,12 +187,6 @@
     </Compile>
     <Compile Include="SidePanels\OptionsPanel.Designer.cs">
       <DependentUpon>OptionsPanel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SidePanels\GroupSwitchPanel.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="SidePanels\GroupSwitchPanel.Designer.cs">
-      <DependentUpon>GroupSwitchPanel.cs</DependentUpon>
     </Compile>
     <Compile Include="StartupOptions\FourValueTypeConverter.cs" />
     <Compile Include="StartupOptions\PaddingConverter.cs" />
@@ -361,9 +354,6 @@
     <Compile Include="NativeToolStripRenderer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="SidePanels\GroupSwitchPanel.resx">
-      <DependentUpon>GroupSwitchPanel.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="SidePanels\OptionsPanel.resx">
       <DependentUpon>OptionsPanel.cs</DependentUpon>
     </EmbeddedResource>
@@ -475,7 +465,6 @@
     </None>
     <None Include="Assets\fullscreen.png" />
     <None Include="Assets\clickforwarding.png" />
-    <None Include="Assets\groupmode.png" />
     <None Include="Assets\pos_center.png" />
     <None Include="Assets\flag_spanish.png" />
     <None Include="Assets\flag_poland.png" />

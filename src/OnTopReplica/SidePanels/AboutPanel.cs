@@ -14,7 +14,10 @@ namespace OnTopReplica.SidePanels {
             InitializeComponent();
 
             //Display version number
-            labelVersion.Text = string.Format(Strings.AboutVersion, Application.ProductVersion);
+            var ver = Application.ProductVersion;
+            if (ver.EndsWith(".0")) ver = ver.Substring(0, ver.Length - 2);
+            panelContents.lblVersion.Text = "Version: " + ver;
+            labelVersion.Text = string.Format(Strings.AboutVersion, ver);
         }
 
         public override string Title {

@@ -228,6 +228,18 @@ namespace OnTopReplica.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("[SHIFT]+[ALT]+O")]
+        public string HotKeyClickThrough {
+            get {
+                return ((string)(this["HotKeyClickThrough"]));
+            }
+            set {
+                this["HotKeyClickThrough"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Standard")]
         public string FullscreenMode {
             get {

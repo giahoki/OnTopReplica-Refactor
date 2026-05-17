@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -132,9 +132,6 @@
   <data name="ErrorDwmOff" xml:space="preserve">
     <value>「桌面轉譯」(DWM)未啟用。</value>
   </data>
-  <data name="GroupSwitchModeWindows" xml:space="preserve">
-    <value>視窗</value>
-  </data>
   <data name="MenuRestoreLastTT" xml:space="preserve">
     <value>打開後，OnTopReplica 會嘗試在啟動後自動監視上一次監視的視窗。</value>
   </data>
@@ -225,9 +222,6 @@
   <data name="SettingsTitle" xml:space="preserve">
     <value>設定</value>
   </data>
-  <data name="GroupSwitchModeStatusDisabled" xml:space="preserve">
-    <value>同時選擇多個視窗來打開。</value>
-  </data>
   <data name="MenuOp75TT" xml:space="preserve">
     <value>設定透明度為 75%。</value>
   </data>
@@ -275,9 +269,6 @@
   </data>
   <data name="InfoUpToDate" xml:space="preserve">
     <value>OnTopReplica 已更新過。</value>
-  </data>
-  <data name="MenuGroupSwitchTT" xml:space="preserve">
-    <value>OnTopReplica 會根據使用者定義的群組自動複製視窗，切換到最後一個啟動的前端視窗。</value>
   </data>
   <data name="ErrorUpdateContentGeneric" xml:space="preserve">
     <value>OnTopReplica 無法檢查更新是否存在。請確保你的網路連接正常。如果正常，可能更新伺服器暫時關閉了。</value>
@@ -434,15 +425,6 @@ OnTopReplica會關閉並套用更新。</value>
   <data name="Homepage" xml:space="preserve">
     <value>主頁：https://github.com/LorenzCK/OnTopReplica。</value>
   </data>
-  <data name="GroupSwitchModeTitle" xml:space="preserve">
-    <value>群組切換模式：</value>
-  </data>
-  <data name="GroupSwitchModeStatusEnabled" xml:space="preserve">
-    <value>群組切換模式已打開。</value>
-  </data>
-  <data name="MenuGroupSwitch" xml:space="preserve">
-    <value>群組切換模式</value>
-  </data>
   <data name="MenuResize" xml:space="preserve">
     <value>縮放</value>
   </data>
@@ -486,9 +468,6 @@ OnTopReplica會關閉並套用更新。</value>
   <data name="RegionsDoneButton" xml:space="preserve">
     <value>完成</value>
   </data>
-  <data name="GroupSwitchModeEnableButton" xml:space="preserve">
-    <value>打開群組模式</value>
-  </data>
   <data name="AboutSlogan" xml:space="preserve">
     <value>一個輕量，即時，永遠置頂的縮圖視窗。</value>
   </data>
@@ -504,9 +483,6 @@ OnTopReplica會關閉並套用更新。</value>
     <value>顯示設定面板。</value>
   </data>
   <data name="MenuPosDisabled" xml:space="preserve">
-    <value>關閉</value>
-  </data>
-  <data name="GroupSwitchModeDisableButton" xml:space="preserve">
     <value>關閉</value>
   </data>
   <data name="AskSettingResetContent" xml:space="preserve">
@@ -532,6 +508,9 @@ OnTopReplica會關閉並套用更新。</value>
   </data>
   <data name="SettingsHotKeyClone" xml:space="preserve">
     <value>監視目前視窗</value>
+  </data>
+  <data name="SettingsHotKeyClickThrough" xml:space="preserve">
+    <value>切換點擊穿透</value>
   </data>
   <data name="MenuClickForwarding" xml:space="preserve">
     <value>打開點擊轉移</value>

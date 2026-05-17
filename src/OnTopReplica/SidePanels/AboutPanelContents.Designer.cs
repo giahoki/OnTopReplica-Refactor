@@ -29,6 +29,7 @@
             this.linkHomepage = new System.Windows.Forms.LinkLabel();
             this.linkAuthor = new System.Windows.Forms.LinkLabel();
             this.lblSlogan = new System.Windows.Forms.Label();
+            this.lblVersion = new System.Windows.Forms.Label();
             this.labeledDivider2 = new WindowsFormsAero.LabeledDivider();
             this.linkLicense = new System.Windows.Forms.LinkLabel();
             this.labeledDivider3 = new WindowsFormsAero.LabeledDivider();
@@ -83,13 +84,13 @@
             this.linkHomepage.AutoSize = true;
             this.linkHomepage.BackColor = System.Drawing.Color.Transparent;
             this.linkHomepage.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
-            this.linkHomepage.Location = new System.Drawing.Point(67, 36);
+            this.linkHomepage.Location = new System.Drawing.Point(67, 53);
             this.linkHomepage.Name = "linkHomepage";
             this.linkHomepage.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.linkHomepage.Size = new System.Drawing.Size(167, 17);
             this.linkHomepage.TabIndex = 23;
             this.linkHomepage.TabStop = true;
-            this.linkHomepage.Text = "https://github.com/vintik/OnTopReplica-Refactor";
+            this.linkHomepage.Text = "https://github.com/giahoki/OnTopReplica-Refactor";
             this.linkHomepage.UseCompatibleTextRendering = true;
             this.linkHomepage.VisitedLinkColor = System.Drawing.Color.Blue;
             this.linkHomepage.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkHomepage_clicked);
@@ -100,7 +101,7 @@
             this.linkAuthor.BackColor = System.Drawing.Color.Transparent;
             this.linkAuthor.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.linkAuthor.LinkColor = System.Drawing.Color.Blue;
-            this.linkAuthor.Location = new System.Drawing.Point(67, 17);
+            this.linkAuthor.Location = new System.Drawing.Point(67, 34);
             this.linkAuthor.Name = "linkAuthor";
             this.linkAuthor.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.linkAuthor.Size = new System.Drawing.Size(72, 17);
@@ -120,6 +121,18 @@
             this.lblSlogan.Size = new System.Drawing.Size(200, 17);
             this.lblSlogan.TabIndex = 24;
             this.lblSlogan.Text = "A lightweight, real-time, always on top thumbnail.";
+            // 
+            // lblVersion
+            // 
+            this.lblVersion.AutoSize = true;
+            this.lblVersion.BackColor = System.Drawing.Color.Transparent;
+            this.lblVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVersion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(170)))));
+            this.lblVersion.Location = new System.Drawing.Point(67, 17);
+            this.lblVersion.Name = "lblVersion";
+            this.lblVersion.Size = new System.Drawing.Size(60, 13);
+            this.lblVersion.TabIndex = 38;
+            this.lblVersion.Text = "Version: ";
             // 
             // labeledDivider2
             // 
@@ -204,6 +217,7 @@
             this.tableLayoutPanel.Name = "tableLayoutPanel";
             this.tableLayoutPanel.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.tableLayoutPanel.RowCount = 10;
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 80F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.AutoSize));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.AutoSize));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.AutoSize));
@@ -213,8 +227,7 @@
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.AutoSize));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.AutoSize));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.AutoSize));
-            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.AutoSize));
-            this.tableLayoutPanel.Size = new System.Drawing.Size(302, 380);
+            this.tableLayoutPanel.Size = new System.Drawing.Size(302, 400);
             this.tableLayoutPanel.TabIndex = 37;
             // 
             // headerPanel
@@ -223,11 +236,12 @@
             this.headerPanel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.headerPanel.Controls.Add(this.pictureBox1);
             this.headerPanel.Controls.Add(this.lblSlogan);
+            this.headerPanel.Controls.Add(this.lblVersion);
             this.headerPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.headerPanel.Location = new System.Drawing.Point(3, 3);
             this.headerPanel.Margin = new System.Windows.Forms.Padding(0);
             this.headerPanel.Name = "headerPanel";
-            this.headerPanel.Size = new System.Drawing.Size(296, 64);
+            this.headerPanel.Size = new System.Drawing.Size(296, 80);
             this.headerPanel.TabIndex = 37;
             // 
             // AboutPanelContents
@@ -238,7 +252,7 @@
             this.Controls.Add(this.tableLayoutPanel);
             this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "AboutPanelContents";
-            this.Size = new System.Drawing.Size(302, 380);
+            this.Size = new System.Drawing.Size(302, 400);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tableLayoutPanel.ResumeLayout(false);
             this.tableLayoutPanel.PerformLayout();
@@ -264,6 +278,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel;
         private System.Windows.Forms.Panel headerPanel;
+        internal System.Windows.Forms.Label lblVersion;
 
     }
 }

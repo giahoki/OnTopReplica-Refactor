@@ -122,11 +122,6 @@ namespace OnTopReplica {
         protected override void OnActivated(EventArgs e) {
             base.OnActivated(e);
 
-            //Deactivate click-through if form is reactivated
-            if (ClickThroughEnabled) {
-                ClickThroughEnabled = false;
-            }
-
             Program.Platform.RestoreForm(this);
         }
 
@@ -333,25 +328,6 @@ namespace OnTopReplica {
                 ThumbnailError(ex, false, Strings.ErrorUnableToCreateThumbnail);
                 _thumbnailPanel.UnsetThumbnail();
             }
-        }
-
-        /// <summary>
-        /// Enables group mode on a list of window handles.
-        /// </summary>
-        /// <param name="handles">List of window handles.</param>
-        public void SetThumbnailGroup(IList<WindowHandle> handles) {
-            if (handles.Count == 0)
-                return;
-
-            //At last one thumbnail
-            SetThumbnail(handles[0], null);
-
-            //Handle if no real group
-            if (handles.Count == 1)
-                return;
-
-            CurrentThumbnailWindowHandle = null;
-            _msgPumpManager.Get<MessagePumpProcessors.GroupSwitchManager>().EnableGroupMode(handles);
         }
 
         /// <summary>
