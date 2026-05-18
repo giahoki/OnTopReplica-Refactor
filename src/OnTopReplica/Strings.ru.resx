@@ -563,6 +563,9 @@
   <data name="SettingsHotKeyClickThrough" xml:space="preserve">
     <value>Переключить сквозные клики</value>
   </data>
+  <data name="SettingsHotKeyResetWindow" xml:space="preserve">
+    <value>Сбросить окно</value>
+  </data>
   <data name="SettingsHotKeyDescription" xml:space="preserve">
     <value>Эти глобальные сочетания клавиш можно использовать также когда программа на заднем плане.</value>
   </data>

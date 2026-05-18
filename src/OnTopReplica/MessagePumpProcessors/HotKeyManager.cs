@@ -99,6 +99,7 @@ namespace OnTopReplica.MessagePumpProcessors {
             RegisterHandler(Settings.Default.HotKeyCloneCurrent, HotKeyCloneHandler);
             RegisterHandler(Settings.Default.HotKeyShowHide, HotKeyShowHideHandler);
             RegisterHandler(Settings.Default.HotKeyClickThrough, HotKeyClickThroughHandler);
+            RegisterHandler(Settings.Default.HotKeyResetWindow, HotKeyResetHandler);
         }
 
         private void RegisterHandler(string spec, HotKeyHandler handler) {
@@ -166,6 +167,13 @@ namespace OnTopReplica.MessagePumpProcessors {
         /// </summary>
         void HotKeyClickThroughHandler() {
             Form.ClickThroughEnabled = !Form.ClickThroughEnabled;
+        }
+
+        void HotKeyResetHandler() {
+            if (Form.ThumbnailPanel.IsShowingThumbnail) {
+                Form.ThumbnailPanel.ConstrainToRegion = false;
+                Form.SetAspectRatio(Form.ThumbnailPanel.ThumbnailPixelSize, true);
+            }
         }
 
         #endregion

@@ -240,6 +240,18 @@ namespace OnTopReplica.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("[ALT]+[SHIFT]+I")]
+        public string HotKeyResetWindow {
+            get {
+                return ((string)(this["HotKeyResetWindow"]));
+            }
+            set {
+                this["HotKeyResetWindow"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Standard")]
         public string FullscreenMode {
             get {

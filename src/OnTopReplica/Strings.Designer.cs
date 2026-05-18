@@ -1420,6 +1420,15 @@ namespace OnTopReplica {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Reset window.
+        /// </summary>
+        internal static string SettingsHotKeyResetWindow {
+            get {
+                return ResourceManager.GetString("SettingsHotKeyResetWindow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на These system-wide shortcuts can also be used when OnTopReplica is not in focus..
         /// </summary>
         internal static string SettingsHotKeyDescription {

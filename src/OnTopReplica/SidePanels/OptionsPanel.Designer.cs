@@ -33,6 +33,8 @@
             this.txtHotKeyClone = new OnTopReplica.HotKeyTextBox();
             this.lblHotKeyClickThrough = new System.Windows.Forms.Label();
             this.txtHotKeyClickThrough = new OnTopReplica.HotKeyTextBox();
+            this.lblHotKeyReset = new System.Windows.Forms.Label();
+            this.txtHotKeyReset = new OnTopReplica.HotKeyTextBox();
             this.groupLanguage = new System.Windows.Forms.GroupBox();
             this.comboLanguage = new OnTopReplica.ImageComboBox();
             this.lblLanguage = new System.Windows.Forms.Label();
@@ -76,9 +78,11 @@
             this.groupHotkeys.Controls.Add(this.txtHotKeyClone);
             this.groupHotkeys.Controls.Add(this.lblHotKeyClickThrough);
             this.groupHotkeys.Controls.Add(this.txtHotKeyClickThrough);
+            this.groupHotkeys.Controls.Add(this.lblHotKeyReset);
+            this.groupHotkeys.Controls.Add(this.txtHotKeyReset);
             this.groupHotkeys.Location = new System.Drawing.Point(3, 89);
             this.groupHotkeys.Name = "groupHotkeys";
-            this.groupHotkeys.Size = new System.Drawing.Size(294, 190);
+            this.groupHotkeys.Size = new System.Drawing.Size(294, 220);
             this.groupHotkeys.TabIndex = 1;
             this.groupHotkeys.TabStop = false;
             this.groupHotkeys.Text = "Hot keys:";
@@ -87,7 +91,7 @@
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.Location = new System.Drawing.Point(7, 78);
+            this.label1.Location = new System.Drawing.Point(7, 145);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(182, 50);
             this.label1.TabIndex = 4;
@@ -153,11 +157,31 @@
             this.txtHotKeyClickThrough.Size = new System.Drawing.Size(181, 23);
             this.txtHotKeyClickThrough.TabIndex = 5;
             // 
+            // lblHotKeyReset
+            // 
+            this.lblHotKeyReset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblHotKeyReset.BackColor = System.Drawing.Color.Transparent;
+            this.lblHotKeyReset.Location = new System.Drawing.Point(196, 118);
+            this.lblHotKeyReset.Name = "lblHotKeyReset";
+            this.lblHotKeyReset.Size = new System.Drawing.Size(91, 20);
+            this.lblHotKeyReset.TabIndex = 8;
+            this.lblHotKeyReset.Text = "Reset window";
+            // 
+            // txtHotKeyReset
+            // 
+            this.txtHotKeyReset.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtHotKeyReset.Location = new System.Drawing.Point(7, 115);
+            this.txtHotKeyReset.Name = "txtHotKeyReset";
+            this.txtHotKeyReset.ReadOnly = true;
+            this.txtHotKeyReset.Size = new System.Drawing.Size(181, 23);
+            this.txtHotKeyReset.TabIndex = 7;
+            // 
             // label1
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.Location = new System.Drawing.Point(7, 108);
+            this.label1.Location = new System.Drawing.Point(7, 145);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(182, 50);
             this.label1.TabIndex = 4;
@@ -233,6 +257,8 @@
         private System.Windows.Forms.Label lblHotKeyClone;
         private System.Windows.Forms.Label lblHotKeyClickThrough;
         private HotKeyTextBox txtHotKeyClickThrough;
+        private System.Windows.Forms.Label lblHotKeyReset;
+        private HotKeyTextBox txtHotKeyReset;
         private System.Windows.Forms.Label label1;
     }
 }

@@ -142,8 +142,8 @@ namespace OnTopReplica {
                 ret = new Rectangle {
                     X = _bounds.X,
                     Y = _bounds.Y,
-                    Width = sourceSize.Width - _bounds.X - _bounds.Width,
-                    Height = sourceSize.Height - _bounds.Y - _bounds.Height
+                    Width = Math.Max(0, sourceSize.Width - _bounds.X - _bounds.Width),
+                    Height = Math.Max(0, sourceSize.Height - _bounds.Y - _bounds.Height)
                 };
             }
             else {

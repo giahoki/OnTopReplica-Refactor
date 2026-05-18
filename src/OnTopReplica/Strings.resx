@@ -564,6 +564,9 @@ You can enable click-through later</value>
   <data name="SettingsHotKeyClickThrough" xml:space="preserve">
     <value>Toggle click-through</value>
   </data>
+  <data name="SettingsHotKeyResetWindow" xml:space="preserve">
+    <value>Reset window</value>
+  </data>
   <data name="SettingsHotKeyDescription" xml:space="preserve">
     <value>These system-wide shortcuts can also be used when OnTopReplica Refactor is not in focus.</value>
   </data>

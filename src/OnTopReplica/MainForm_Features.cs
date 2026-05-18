@@ -82,7 +82,7 @@ namespace OnTopReplica {
         }
 
         void _clickThroughComeBackTimer_Tick(object sender, EventArgs e) {
-            var diff = DateTime.UtcNow.Subtract(new DateTime(_clickThroughComeBackTicks));
+            var diff = DateTime.UtcNow.Subtract(new DateTime(_clickThroughComeBackTicks, DateTimeKind.Utc));
             if (diff.TotalSeconds > 2) {
                 var mousePointer = WindowMethods.GetCursorPos();
 

@@ -409,7 +409,7 @@ namespace OnTopReplica {
             base.OnMouseMove(e);
         }
 
-        readonly static Pen RedPen = new Pen(Color.FromArgb(255, Color.Red), 3f);
+        readonly static Pen SelectionPen = new Pen(Color.White, 3f);
 
         protected override void OnPaint(PaintEventArgs e) {
             if (_drawingRegion) {
@@ -419,12 +419,12 @@ namespace OnTopReplica {
                 int top = Math.Min(_regionStartPoint.Y, _regionLastPoint.Y);
                 int bottom = Math.Max(_regionStartPoint.Y, _regionLastPoint.Y);
 
-                e.Graphics.DrawRectangle(RedPen, left, top, right - left, bottom - top);
+                e.Graphics.DrawRectangle(SelectionPen, left, top, right - left, bottom - top);
             }
             else if (DrawMouseRegions && ! _drawingSuspended) {
                 //Show cursor coordinates
-                e.Graphics.DrawLine(RedPen, new Point(0, _regionLastPoint.Y), new Point(ClientSize.Width, _regionLastPoint.Y));
-                e.Graphics.DrawLine(RedPen, new Point(_regionLastPoint.X, 0), new Point(_regionLastPoint.X, ClientSize.Height));
+                e.Graphics.DrawLine(SelectionPen, new Point(0, _regionLastPoint.Y), new Point(ClientSize.Width, _regionLastPoint.Y));
+                e.Graphics.DrawLine(SelectionPen, new Point(_regionLastPoint.X, 0), new Point(_regionLastPoint.X, ClientSize.Height));
             }
 
             base.OnPaint(e);

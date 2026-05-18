@@ -56,6 +56,9 @@
     <Setting Name="HotKeyClickThrough" Type="System.String" Scope="User">
       <Value Profile="(Default)">[SHIFT]+[ALT]+O</Value>
     </Setting>
+    <Setting Name="HotKeyResetWindow" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[ALT]+[SHIFT]+I</Value>
+    </Setting>
     <Setting Name="FullscreenMode" Type="System.String" Scope="User">
       <Value Profile="(Default)">Standard</Value>
     </Setting>
