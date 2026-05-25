@@ -1,3 +1,5 @@
+> **⚠️ OnTopReplica is archived and will no longer be updated. Check out the new app [OnTop-Windows](https://github.com/giahoki/OnTop-Windows) — rewritten in C++ from scratch!**
+
 # OnTopReplica Refactor
 
 **A real-time always-on-top "replica" of a window of your choice, for Windows Vista, 7, 8, 10, and 11.**

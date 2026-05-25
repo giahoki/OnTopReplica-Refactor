@@ -1,3 +1,5 @@
+> **⚠️ OnTopReplica заархивирован и больше не будет обновляться. Зацените новое приложение [OnTop-Windows](https://github.com/giahoki/OnTop-Windows) — переписанное с нуля на C++!**
+
 # OnTopReplica Refactor
 
 **Клон любого окна в реальном времени с режимом «всегда поверх остальных» для Windows Vista, 7, 8, 10 и 11.**
